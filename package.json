@@ -1,0 +1,30 @@
+{
+  "name": "umi-plugin-tongji",
+  "version": "0.0.1",
+  "description": "baidu tongji",
+  "authors": {
+    "name": "xiaohuoni",
+    "email": "448627663@qq.com"
+  },
+  "repository": "alitajs/tongji",
+  "peerDependencies": {
+    "umi": "2.x"
+  },
+
+  "main":  "lib/index.js",
+  "scripts": {
+    "dev":"PAGES_PATH='example' umi dev",
+    "build":  "umi-tools build",
+    "prepublishOnly": "npm run build && np --no-cleanup --yolo --no-publish"
+  },
+  "devDependencies": {
+    "umi-tools":  "*",
+    "np": "^3.0.4"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+
+  "license": "MIT"
+}
