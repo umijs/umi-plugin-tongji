@@ -1,12 +1,12 @@
 {
   "name": "umi-plugin-tongji",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "baidu tongji",
   "authors": {
     "name": "xiaohuoni",
     "email": "448627663@qq.com"
   },
-  "repository": "alitajs/tongji",
+  "repository": "umijs/umi-plugin-tongji",
   "peerDependencies": {
     "umi": "2.x"
   },
